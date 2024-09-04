@@ -1,0 +1,37 @@
+name: womenn
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.4.0
+  cloud_firestore: ^5.3.0
+  firebase_auth: ^5.2.0
+  firebase_storage: ^12.2.0
+  google_sign_in: ^6.0.0
+  google_maps_flutter: ^2.2.0
+  flutter_sound: ^9.2.13
+  speech_to_text: ^6.6.2
+  shared_preferences: ^2.3.2
+  geolocator: ^12.0.0
+  flutter_sms: ^2.3.3
+  http: ^1.2.2
+  firebase_messaging: ^15.1.0
+  permission_handler: ^10.2.0
+  cloud_functions: ^5.1.0
+  cupertino_icons: ^1.0.8
+  video_player: ^2.5.0
+  better_player: ^0.0.84
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
