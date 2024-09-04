@@ -117,4 +117,3 @@ class _CameraModePageState extends State<CameraModePage> {
     );
   }
 }
- 
